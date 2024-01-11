@@ -1,0 +1,35 @@
+.p1font{
+   background-color: red;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+   font-weight: 400;
+}
+
+
+.p2font{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blue;
+    font-weight: 900;
+    color: yellow;
+}
+
+.p3font{
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif
+    font-size: 1.5rem;
+    font-variant: small-caps;
+}
+
+.p4font{
+    background-color: yellow;
+    font-family: 'Dela Gothic One', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Young Serif', serif;
+}
+
+.p5font{
+
+    font-family: 'Sacramento', cursive;
+    background-color: pink;
+    font-size: 2rem;
+}

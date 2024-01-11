@@ -1,0 +1,40 @@
+.p1{
+    text-transform: capitalize;
+}
+
+h1{
+    border: 2px solid red;
+    color: blue;
+    text-align: center;
+    text-align: left;
+}
+
+#par1{
+    color: red;
+    text-align: center;
+}
+
+#par2{
+    color: green;
+    text-align: left;
+}
+
+#par3{
+    color: coral;   
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#par4{
+    color: firebrick;
+    text-transform: capitalize;text-decoration: line-through;
+    /* text-decoration: wavy; */
+    text-decoration: underline dashed;
+}
+
+#par5{
+    color: black
+    text-align: justify;
+    text-indent: 30px;
+    direction: rtl;
+}

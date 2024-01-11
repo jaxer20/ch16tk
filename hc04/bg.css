@@ -1,0 +1,19 @@
+.container{
+    /* background-color: yellow; */
+    color: yellow;
+    border: 2px solid black;
+    width: 50rem;
+    height: 15rem;
+    margin: 15px auto;
+    text-align: justify;
+    background-image: url("https://picsum.photos/id/684/600/400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+
+
+}
+
+.paragraf1{
+
+}

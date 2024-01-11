@@ -1,0 +1,39 @@
+.par1{
+border: 2px solid red;
+text-align: center;
+}
+
+.par2{
+border: 5px;
+border-style: dotted;
+border-color: blue;
+}
+
+.par3{
+border: 2px double magenta;
+}
+
+.par4{
+border: 10px dashed orange;
+}
+
+.par5{
+border: 5px outset olive;
+width: 350px;
+text-align: center;
+margin: auto;
+}
+
+#span1{
+    border: 10px double red;
+    width: 50px;
+    margin: auto;
+    display: block;
+    width: 150px;
+}
+
+.span-container{
+    border: 5px solid blue;
+    text-align: center;
+    margin: auto;
+}
