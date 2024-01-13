@@ -1,0 +1,22 @@
+div.box{
+    padding: 20px;
+    display:inherit;
+    background-color: rgba(27, 69, 94, 0.705);
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+p.text{
+    background-color: aqua;
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.form{
+    padding: 50px;
+}
+#legend{
+    color: red;
+    sty
+    background-color: rgb(34, 22, 100);
+}

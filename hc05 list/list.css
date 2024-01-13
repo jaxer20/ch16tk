@@ -1,0 +1,158 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,500;1,400&family=Montserrat+Alternates:ital,wght@1,300;1,600&display=swap'); */
+
+* {
+  font-family: "Bitter", serif;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+ul.languages {
+  color: blue;
+  border: 2px solid red;
+
+  list-style-position: inside;
+  list-style-image: url(./img/house-solid.svg);
+}
+
+h2 {
+  color: purple;
+}
+h2 i {
+  color: orange;
+}
+
+ul.languages li {
+  background-color: yellow;
+  margin: 5px;
+  width: 250px;
+  border-radius: 5px;
+  padding-left: 20px;
+  border: 1px solid blue;
+  border-left: 5px solid green;
+}
+
+ul li:hover {
+  background-color: red;
+  opacity: 0, 5;
+  cursor: pointer;
+}
+
+/*!PSEUDO CLASSES!*/
+ul.pseudo {
+  font-size: 1rem;
+  color: green;
+}
+
+ul.pseudo li:first-child {
+  color: red;
+}
+
+ul.pseudo li:last-child {
+  color: blue;
+}
+
+ul.pseudo li:nth-child(3) {
+  color: magenta;
+}
+ul.pseudo li:nth-child(5) {
+  color: olive;
+  background-color: red;
+  font-size: 2rem;
+  list-style-type: none;
+}
+
+ul.pseudo li:nth-child(even) {
+  background-color: green;
+}
+
+ul.pseudo li:nth-child(odd) {
+  background-color: yellow;
+}
+
+ul.pseudo li:active {
+  background-color: black;
+  /* color: white; */
+}
+
+input:focus {
+  background-color: tomato;
+  color: white;
+}
+
+nav.link a:link {
+  color: red;
+}
+
+nav.link a:visited {
+  color: green;
+}
+
+nav.link a:active {
+  color: rgb(218, 90, 16);
+}
+
+nav.link a:hover {
+  color: blue;
+}
+
+nav.cw a{
+    text-decoration: none;
+    border: 2px solid darkmagenta;
+    margin: 10px;
+    padding: 5px;
+    color: darkmagenta;
+    border-radius: 5px;
+    background-color: gray;
+}
+nav.cw a:hover{
+    cursor: pointer;
+    background-color: darkmagenta;
+    color: gray;
+}
+nav.cw a:hover i{
+    color: rgb(20, 196, 114);
+}
+nav a li{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.p-elements::first-line{
+    color: red;
+}
+.p-elements::first-letter{
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul.before-after{
+    list-style-type: none;
+
+}
+ul.before-after li{
+    background-color: lightcoral;
+    margin: 0.5rem;
+    width: 40%;
+    border-radius: 10px;
+    padding-left: 20px;
+    text-align: center;
+    margin: 10px auto;
+}
+ul.before-after li::before{
+    content: '⚽';
+    margin: 10px;
+}
+ul.before-after li:nth-child(2)::after{
+    content: '🎨';
+}
+
+ul.languages li::before{
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    padding-right: 5px;
+    margin-right: 10px;
+    background-color: red;
+    background-image: url(./img/house-solid.svg);
+}
