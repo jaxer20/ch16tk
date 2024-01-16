@@ -1,0 +1,96 @@
+body {
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+/* height: 100%; */
+width: 100%;
+  background-image: linear-gradient(
+    to left,
+    rgba(201, 68, 6, 0.945),
+    rgba(214, 12, 12, 0.767)
+  );
+}
+.c1 {
+  margin: 100px auto 150px;
+  display: inline-block;
+  text-align: center;
+
+}
+.c2 {
+  margin: 5px auto 150px;
+  display: inline-block;
+  text-align: center;
+
+}
+.c3 {
+  margin: 5px auto 150px;
+  display: inline-block;
+  text-align: center;
+
+}
+#a1 {
+  margin: 20px 20px;
+  padding: 50px;
+  font-size: 30px;
+  color: white;
+  border:none
+}
+#a2 {
+  margin: 1px 10px;
+  padding: 50px;
+  font-size: 30px;
+  color: white;
+  border: 10px dotted white;
+}
+#a3 {
+  margin: 1px 10px;
+  padding: 50px;
+  font-size: 30px;
+  color: white;
+  border: 10px dashed white;
+}
+#b1 {
+  margin: 1px 10px;
+  padding: 50px;
+  font-size: 30px;
+  color: white;
+  border: 10px solid white;
+}
+#b2 {
+  margin: 1px 10px;
+  padding: 50px;
+  font-size: 30px;
+  color: white;
+  border: 10px double white;
+}
+#b3 {
+  margin: 1px 10px;
+  padding: 50px;
+  font-size: 30px;
+  color: white;
+  border: 10px groove white;
+}
+#c1 {
+  margin: 1px 10px;
+  padding: 50px;
+  font-size: 30px;
+  color: white;
+  border: 10px ridge white;
+}
+#c2 {
+  margin: 1px 10px;
+  padding: 50px;
+  font-size: 30px;
+  color: white;
+  border: 10px inset white;
+}
+#c3 {
+  margin:1px 10px;;
+  padding: 50px;
+  font-size: 30px;
+  color: white;
+  border: 10px outset white;
+}
