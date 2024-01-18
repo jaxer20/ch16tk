@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NETFLIX</title>
+    <link rel="stylesheet" href="./netflix2.css" />
+  </head>
+
+  <body>
+    <h1>NETFLIX</h1>
+    <h2>Thank you for singingup at Netflix. Tell us more about yourself</h2>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <form action="">
+    <div>
+      <label for="name">Name</label><br />
+      <input 
+      class="inputs"
+      type="text" name="name" id="name" placeholder="Enter your name" />
+    </div>
+    <br>
+
+    <div>
+      <label for="age">Age</label><br />
+      <input 
+      class="inputs"
+      type="number" name="age" id="age" placeholder="Age" />
+    </div>
+<br>
+    <div>
+      <label for="email">Email</label><br />
+      <input
+      class="inputs"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email"
+      />
+    </div>
+<br>
+    <div>
+      <label for="ct">Content type</label><br />
+      <select 
+      class="ct-label"
+      name="ct" id="ct">
+        <option value="">Series</option>
+        <option value="">Award-Winning Films</option>
+        <option value="">New Releases</option>
+        <option value="">Children & Family TV</option>
+        <option value="">Popular on Netflix</option>
+      </select>
+    </div>
+    <br />
+    <div>
+      <label for="mt">Movie type</label> <br />
+      <input type="checkbox" name="mt" id="mt" />
+      <label for="Comedy">Comedy</label>
+    </div>
+
+    <div>
+      <input type="checkbox" name="action" id="action" />
+      <label for="romance">Action</label>
+    </div>
+
+    <div>
+      <input type="checkbox" name="romance" id="romance" checked />
+      <label for="romance">Romance</label>
+    </div>
+    <br />
+    <div>
+      <label for="gender">Gender</label> <br />
+      <input type="checkbox" name="male" id="male" />
+      <label for="Comedy">Male</label>
+    </div>
+    <div>
+      <input type="checkbox" name="female" id="female" />
+      <label for="female">Female</label>
+    </div>
+    <div>
+      <input type="checkbox" name="other" id="other" />
+      <label for="other">Other</label>
+    </div>
+    <br />
+    <div>
+      <label for="fb">Feed back</label><br />
+      <textarea 
+      class="text-label"
+      name="fb" id="fb" cols="20" rows="5"
+      placeholder="Any comment"></textarea>
+    </div>
+<br>
+    <div>
+      <input 
+      class= "btn-label"
+      type="submit" value="Submit" />
+    </div>
+</form>
+  </body>
+</html>

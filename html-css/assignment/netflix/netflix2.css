@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    background-image: url(netflix.webp);
+    background-color: bisque;
+  }
+  
+  h1{
+      padding: 20px, 0;
+      text-align: center;
+      color:red;
+      font-size: 50px;
+  }
+  
+  h2{
+      padding: 20px;
+      text-align: center;
+      color: white;
+  }
+  
+  form {
+      background-color: rgb(8, 14, 14, 75%);
+      color: white;
+      width: fit-content;
+      margin: 10px auto;
+      padding: 20px 70px;
+  }
+  
+  .ct-label {
+      padding: 5px 20px;
+  }
+  
+  
+  
+  .label {
+      display: inline-block;
+      width: 200px;
+  }
+  
+  .inputs{
+      padding: 10px 20px;
+      
+      
+  }
+  
+  .text-label{
+      padding: 0px 15px;
+  }
+  
+  .btn-label{
+      height: 30px;;
+      margin: 10px 55px;
+      color: white;
+      background-color: red;
+      border-radius: 100px;
+      width: 100px;
+      font-weight: 750;
+     
+     
+  }
