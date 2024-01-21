@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1{
+    text-align: center;
+    font-family: 'Bungee Shade', sans-serif;
+}
+
+.img1{
+    width: 40%;
+    float: left;
+}
+.h2{
+    color: rgba(209, 87, 30, 0.973);
+}
+.block1 {
+    border-radius: 5px;
+    text-align: justify;
+    border: 1px solid red;
+    padding: 5px;
+    background-color: rgba(218, 206, 218, 0.308);
+}
+
+.button{
+    /* background-color: orange; */
+    color: white;
+    padding: 5px;
+    border-radius: 5px ;
+    float: right;
+    width: 10vw;
+    margin-top: 10px;
+
+}
+/* .button-float{ */
+    /* text-align:right; */
+    /* clear:both; */
+    /* display: inline; */
+}
+
+

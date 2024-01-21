@@ -1,0 +1,22 @@
+.box{
+    border: 2px solid red;
+    margin-bottom: 2rem;
+    width: 25rem;
+    height: 7rem;
+}
+.box1{
+    background-color: aqua;
+    overflow: visible;
+}
+.box2{
+    background-color: yellow;
+    overflow: hidden;
+}
+.box3{
+    background-color: orange;
+    overflow: scroll;
+}
+.box4{
+    background-color: pink;
+    overflow: auto;
+}
