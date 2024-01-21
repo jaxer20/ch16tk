@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h1{
+    text-align: center;
+}
+.h2{
+    color: chocolate;
+}
+.div{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 40px;
+    
+}
+.img{
+    float: left;
+    width: 33%;
+}
+.p{
+    text-align: justify;
+}
+.button{
+    clear: both;
+    background-color: rgb(223, 99, 51);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: ;
+    clear: both;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
