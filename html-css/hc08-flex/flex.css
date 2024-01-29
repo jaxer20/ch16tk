@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: bisque;
+    display: flex;
+}
+
+nav .left
+nav .middle
+nav .right{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav .left{
+    background-color: fuchsia;
+    width: 33%;
+    flex: 1;
+}
+
+nav .middle{
+    background-color: skyblue;
+    width: 33%;
+    flex: 1;
+
+}
+
+nav .right{
+    background-color: olive;
+    width: 33%;
+    flex: 1;
+
+}
