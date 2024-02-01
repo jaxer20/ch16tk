@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+@import url(./theme.css);
+:root{
+    --white: #ececec;
+    --orange: orange;
+    --orange-dark: #f7a100;
+    --blue: rgb(37, 34, 219);
+    --blue-dark: rgb(37, 34, 219);
+    --yesil: rgb(15, 226, 15);
+    --yesil-koyu: rgb(15, 143, 15);
+
+
+    --ff-workbench: 'Sixtyfour', sans-serif;
+
+    /* font-family: 'Sixtyfour', sans-serif; */
+
+    --fs-lg:1.4rem;
+    --fs-xl:2rem;
+    --fs-xxl:3rem;
+    
+
+/* renk paleti */
+--green-1: #042940;
+
+
+
+
+}
+
+body{
+    background-color: var(--white);
+    /* font-family: var(--ff-workbench); */
+    font-family: var(--ff-sevillana);
+}
+
+h1{
+    background-color: var(--blue);
+}
+
+p{
+    background-color: var(--blue);
+    color:var(--orange-dark);
+    font-family:var(--ff-workbench);
+}
+.container{
+    border: 2px solid red;
+    width: 500px;
+    height: 250px;
+    
+}
+.light{
+    width: 150px;
+    height: 100px;
+    background-color: var(--yesil)
+}
+.dark{
+    width: 150px;
+    height: 150px;
+    background-color: var(--yesil-koyu);
+}
+
+@media screen and (min-width:850px) and (max-width:950px) {
+    body{
+        background-color: red;
+    }
+}
