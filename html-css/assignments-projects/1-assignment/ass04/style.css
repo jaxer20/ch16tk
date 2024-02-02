@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EFEFEF;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 5rem 5rem;
+    display: flex;
+    border: 1px;
+    background-color: #FFFFFF;
+    box-shadow:5px 5px 10px 1px 
+    rgba(0, 0, 0, 0.486);
+    justify-content: center;
+        
+}
+
+img{
+    /* border: 1px solid; */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex: 5;;
+
+
+
+}
+
+.info{
+    flex: 1;
+    padding: 5rem 2rem;
+    box-shadow:5px 5px 10px 1px 
+rgba(0, 0, 0, 0.486);
+
+}
+
+.m2{
+    background-color: #2175F5;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.container .info .product-info{
+    margin-top: 1rem;
+    width: 400px;
+
+}
+
+h1{
+    font-size: 32px;
+    /* text-decoration: none solid rgb(51 51 51); */
+}
+h2{
+    font-size: 19px;
+}
+
+.container .info .storage{
+    margin-top: 1rem;
+
+}
+
+.container .info .product-info p{
+    font-size: 17px;
+}
+
+
+.gb{
+display: flex;
+justify-content:left;
+margin-left: 1rem;
+gap: 2rem;
+}
+
+.gb .gb1-3{
+    color: black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: #EFEFEF;
+
+
+}
+.gb .gb2{
+    background-color: #2175F5;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+
+}
+.fiyat{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.cart{
+    display: flex;
+    background-color: #2175F5;
+color: white;
+padding: 1rem;
+align-items: center;
+border-radius: 5px;
+}
+
+.rakam{
+display: flex;
+align-items: center;
+font-size: 2rem;
+
+}
+
+.dolar{
+    font-size: 1rem;
+}
