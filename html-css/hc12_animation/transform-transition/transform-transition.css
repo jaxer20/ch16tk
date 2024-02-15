@@ -1,0 +1,114 @@
+
+
+body{
+    height: 200vh;
+}
+.yazi{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem auto;
+    width: 50vw;
+}
+
+
+.yazi1{
+    background-color: darkcyan;
+    transform: rotateX(180deg);
+    position: relative;
+    z-index: 1;
+}
+
+.yazi2{
+ background-color: chocolate;
+ transform: rotateY(180deg);
+}
+
+.yazi3{
+    background-color: red;
+
+}
+.yazi3:active{
+    transform: rotate(30deg) scale(1.5);
+    transform-origin: right;
+}
+
+.yazi4{
+    background-color: fuchsia;
+    transform: scaleX(1.5);
+    
+
+}
+
+.yazi5{
+    background-color: olive;
+    transform: scaleY(2);
+
+}
+
+.yazi6{
+    background-color: darkgoldenrod;
+
+}
+img{
+    transform: skewX(50deg);
+    transform: skewY(80deg);
+    transform: skewY(30deg, 30deg);
+}
+
+.box{
+    background-color: crimson;
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+}
+.x{
+    /* transform: translateX(150px); */
+    transition-property: all,;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(1, 0.52, 0.11, 1.49);
+}
+.x:active{
+    transform: translateX(550px);
+    /* background-color: orange; */
+    /* width: 300px; */
+
+}
+.y{
+    transition: all 2s ease-in-out;
+}
+.y:active{
+    background-color: yellow;
+    transform: translate(50px, 100px);
+}
+
+
+.xy{
+    transition-property: all;
+    transition-duration: 2s;
+}
+.xy:active{
+    transform: translate(100px, 50px);
+    background-color: blue;
+    width: 200px;
+    height: 100px;
+}
+
+.btn-div{
+    text-align: center;
+}
+
+.btn{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition: all .3s ease-in-out;
+}
+.btn:active{
+    background-color: red;
+    color: white;
+    transform: scale(0.95);
+}
