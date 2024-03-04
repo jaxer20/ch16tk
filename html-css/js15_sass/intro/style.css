@@ -130,4 +130,38 @@ header ul li a {
 
 footer p {
   background-color: darkorange;
+}
+footer .social-icons {
+  display: flex;
+  height: 10rem;
+}
+footer .social-icons .social1 {
+  width: 20%;
+  background-color: #1a1aff;
+  font-size: 1rem;
+  color: brown;
+}
+footer .social-icons .social2 {
+  width: 20%;
+  background-color: #3333ff;
+  font-size: 2rem;
+  color: purple;
+}
+footer .social-icons .social3 {
+  width: 20%;
+  background-color: #4d4dff;
+  font-size: 3rem;
+  color: aqua;
+}
+footer .social-icons .social4 {
+  width: 20%;
+  background-color: #6666ff;
+  font-size: 4rem;
+  color: pink;
+}
+footer .social-icons .social5 {
+  width: 20%;
+  background-color: #8080ff;
+  font-size: 5rem;
+  color: lightgreen;
 }/*# sourceMappingURL=style.css.map */
